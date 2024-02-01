@@ -1,4 +1,6 @@
-[gd_scene format=3 uid="uid://bvgga04uwyaik"]
+[gd_scene load_steps=2 format=3 uid="uid://bvgga04uwyaik"]
+
+[ext_resource type="Script" path="res://Scripts/TreeManager.gd" id="1_07q4i"]
 
 [node name="Control" type="Control"]
 layout_mode = 3
@@ -17,6 +19,7 @@ offset_bottom = 648.0
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_stretch_ratio = 0.3
+script = ExtResource("1_07q4i")
 
 [node name="ColorRect" type="ColorRect" parent="HBoxContainer"]
 layout_mode = 2

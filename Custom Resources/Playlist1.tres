@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="Playlist" load_steps=2 format=3 uid="uid://x1a13gy37ff6"]
+
+[ext_resource type="Script" path="res://Custom Resources/Playlist.gd" id="1_ki1a5"]
+
+[resource]
+script = ExtResource("1_ki1a5")
+name = "My Playlist"
+album_references = Array[Script]([])

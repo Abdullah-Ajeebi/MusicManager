@@ -16,9 +16,12 @@ offset_right = 1152.0
 offset_bottom = 648.0
 
 [node name="Tree" type="Tree" parent="HBoxContainer"]
+modulate = Color(1, 0, 0, 1)
+self_modulate = Color(1, 0, 0, 1)
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_stretch_ratio = 0.3
+tooltip_text = "Playlist Tree"
 script = ExtResource("1_07q4i")
 
 [node name="ColorRect" type="ColorRect" parent="HBoxContainer"]

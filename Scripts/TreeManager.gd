@@ -1,9 +1,13 @@
 extends Tree
 
 
-# Called when the node enters the scene tree for the first time.
 func _ready():
-	pass # Replace with function body.
+	var tree = Tree.new()
+	var root = tree.create_item()
+	var child1 = tree.create_item(root)
+	var child2 = tree.create_item(root)
+	var subchild1 = tree.create_item(child1)
+	subchild1.set_text(0, "Subchild1")
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
